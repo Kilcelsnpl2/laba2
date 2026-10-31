@@ -10,8 +10,8 @@
 using namespace std;
 
 int main() {
-  const double g = 9.81;
-  const double gamma = 1.0;
+  constexpr double  g = 9.81;
+  constexpr double gamma = 1.0;
   double sigma, d, U, d1, d2, g2;
   
   g2 = g * 100; // m/s^2 => km/s^2
